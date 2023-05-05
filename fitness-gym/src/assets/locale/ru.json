@@ -1,0 +1,140 @@
+{
+  "header": {
+    "navigation": {
+      "about-us": "О нас",
+      "service": "Услуги",
+      "coaches": "Тренеры",
+      "contacts": "Контакты",
+      "prices": "Цены"
+    },
+
+    "button": "Купить абонемент"
+  },
+
+  "main": {
+    "banner": {
+      "h": "FITNESS GYM",
+      "p": "Современный зал с новейшим оборудованием и крутыми тренерами",
+      "button": "Начни сейчас",
+      "button1": "Детали"
+    },
+
+    "about": {
+      "h2": "О нас",
+      "p": "Lorem ipsum dolor sit amet consectetur. Amet faucibus vitae etiam massa dictumst quisque. Pellentesque a eu mattis neque. Duis vehicula pharetra ac pellentesque interdum in integer. Scelerisque cursus bibendum commodo elementum faucibus et. Nec tempor imperdiet lacus pellentesque viverra purus. Magna commodo et consectetur pharetra morbi iaculis0",
+      "button": "Подробнее..."
+    },
+
+    "service": {
+      "gym": "ТРЕНАЖЕРНЫЙ ЗАЛ",
+      "cardio": "КАРДИО ЗАЛ",
+      "fitness": "ФИТНЕС ЗАЛ",
+      "group": "ГРУППОВЫЕ ТРЕНИРОВКИ",
+      "pilates": "ПИЛАТЕС",
+      "p": "Lorem ipsum dolor sit amet, consetetur",
+      "button": "Подробнее..."
+    },
+
+    "team": {
+      "h2": "НАША TEAM",
+      "title": "Алекс Уайт",
+      "title1": "Наталья Мельник",
+      "title2": "Екатерина Мельник",
+      "level": "Тренер 1 уровня",
+      "p": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+    },
+
+    "abonements": {
+      "h2": "АБОНЕМЕНТЫ",
+      "p": "Разовая тренировка - 100 грн",
+      "p1": "Студентам, многодетным семьям и военным - Скидка 10%",
+      "card": {
+        "c": "₴",
+        "price": "800",
+        "priceText": "/в месяц",
+        "textBold": "Безлимит - Премиум",
+        "subText": "Абонемент работает с 07:00- 21:00",
+        "listText": {
+          "1": "1 мес. - 800грн",
+          "2": "3 мес. - 2250грн",
+          "3": "6 мес. - 3500грн",
+          "4": "12 мес. - 5300грн"
+        }
+      },
+      "card2": {
+        "c": "₴",
+        "price": "900",
+        "priceText": "/в месяц",
+        "textBold": "Безлимит - Премиум",
+        "subText": "Абонемент работает с 07:00- 21:00",
+        "listText": {
+          "1": "1 мес. - 2000грн",
+          "2": "3 мес. - 27050грн",
+          "3": "6 мес. - 3900грн",
+          "4": "12 мес. - 5800грн"
+        }
+      },
+      "card3": {
+        "c": "₴",
+        "price": "700",
+        "priceText": "/в месяц",
+        "textBold": "Безлимит - Премиум",
+        "subText": "Абонемент работает с 07:00- 21:00",
+        "listText": {
+          "1": "1 мес. - 1800грн",
+          "2": "3 мес. - 2000грн",
+          "3": "6 мес. - 3400грн",
+          "4": "12 мес. - 5000грн"
+        }
+      },
+      "card4": {
+        "c": "₴",
+        "price": "1800",
+        "priceText": "/в месяц",
+        "textBold": "Безлимит - Премиум",
+        "subText": "Абонемент работает с 07:00- 21:00",
+        "listText": {
+          "1": "1 мес. - 2800грн",
+          "2": "3 мес. - 4250грн",
+          "3": "6 мес. - 7500грн",
+          "4": "12 мес. - 9300грн"
+        }
+      },
+      "button": "Купить абонемент"
+    },
+
+    "request-call": {
+      "h2": "ЗАКАЗАТЬ ОБРАТНУЮ СВЯЗЬ",
+      "p": "Для уточнения любой информации свяжитесь с нами",
+      "input": "КАК К ВАМ ОБРАЩАТЬСЯ?",
+      "input1": "НОМЕР ТЕЛЕФОНА",
+      "textarea": "ПРИМЕЧАНИЯ",
+      "text": "Мы не передаем и не обмениваем вашу информацию кому-либо, по любой причине.  А еще не будем рассылать спам.",
+      "button": "Отправить",
+      "error": "Это поле является обязательным для заполнения"
+    },
+
+    "contacts": {
+      "h2": "КОНТАКТЫ",
+      "li": "Город Винница, ул Соборная 10А",
+      "li1": "+380 95 555 5555",
+      "li2": "info@gmail.com"
+    },
+
+    "404": {
+      "p": "Извините, эта страница не работает",
+      "span": "Поэтому мы не можем поделиться с вами хорошими вещами",
+      "button": "Главная"
+    },
+
+    "footer": {
+      "text": "Lorem ipsum dolor sit amet consectetur. Amet faucibus vitae etiam massa dictumst quisque. Pellentesque a eu mattis neque. Duis vehicula pharetra ac pellentesque interdum in integer.",
+      "title": "КОНТАКТЫ",
+      "text1": "Call-центр: 1 (323) 938-5798 Факс: 1 (888) 637-7262 Email: info@styleixthemes.com",
+      "text2": "Город Винница, ул Соборная 10А Понедельник -Воскресенье: 9:00 - 21:00",
+      "label": "ОСТАВЬ СВОЙ НОМЕР ДЛЯ СВЯЗИ",
+      "button": "Отправить",
+      "error": "Это поле является обязательным для заполнения"
+    }
+  }
+}

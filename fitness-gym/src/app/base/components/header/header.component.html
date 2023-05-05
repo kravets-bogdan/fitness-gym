@@ -1,0 +1,41 @@
+<header>
+  <div class="wrapper">
+    <div class="content">
+      <!-- * Logo -->
+      <app-logo></app-logo>
+      <!-- * Language -->
+      <div class="block">
+        <button
+          type="button"
+          class="language"
+          (click)="changeLanguageWindow = true"
+        >
+          <svg class="icon icon-language">
+            <use xlink:href="#icon-language"></use>
+          </svg>
+          <span>{{ language | uppercase }}</span>
+        </button>
+      </div>
+    </div>
+    <!-- * Navigation -->
+    <ul class="list">
+      <li class="item" *ngFor="let item of list">
+        <a class="link" (click)="scrollToElement(item.route)">{{
+          item.name | translate
+        }}</a>
+      </li>
+    </ul>
+    <!-- * Button -->
+    <button
+      class="button button-white"
+      type="button"
+      (click)="scrollToElement(route!)"
+    >
+      <span>{{ "header.button" | translate }}</span>
+    </button>
+  </div>
+</header>
+<app-language
+  (onclick)="changeLanguageWindow = !changeLanguageWindow"
+  *ngIf="changeLanguageWindow"
+></app-language>

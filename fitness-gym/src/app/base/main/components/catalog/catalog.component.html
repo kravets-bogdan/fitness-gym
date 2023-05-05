@@ -1,0 +1,22 @@
+<section>
+  <div class="block">
+    <div class="content" *ngFor="let item of list">
+      <img
+        [title]="item.title | translate"
+        [alt]="item.alt | translate"
+        [src]="item.src"
+        loading="lazy"
+      />
+      <div class="background"></div>
+      <h2>{{ item.h2 | translate }}</h2>
+      <div class="info">
+        <p class="text">
+          {{ item.text | translate }}
+        </p>
+        <a [routerLink]="item.link" class="button button-white" type="button">
+          <span>{{ "main.service.button" | translate }}</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

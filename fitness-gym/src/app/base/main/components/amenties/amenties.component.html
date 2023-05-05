@@ -1,0 +1,55 @@
+<section>
+  <div class="wrapper">
+    <h2>{{ "main.abonements.h2" | translate }}</h2>
+    <p class="text">
+      <span>{{ "main.abonements.p" | translate }}</span>
+      <span>{{ "main.abonements.p1" | translate }}</span>
+    </p>
+    <owl-carousel-o [options]="customOptions">
+      <ng-template carouselSlide *ngFor="let slide of slidesStore">
+        <div class="item">
+          <p class="price">
+            <span>{{ slide.currency | translate }}</span
+            ><span class="priceamount">{{ slide.price | translate }}</span
+            ><span>{{ slide.priceText | translate }}</span>
+          </p>
+          <p class="textbold">
+            <b>{{ slide.textBold | translate }}</b>
+          </p>
+          <p class="subtext">{{ slide.subText | translate }}</p>
+          <ul class="list">
+            <li class="list-item">
+              <svg class="icon icon-marks">
+                <use xlink:href="#icon-marks"></use>
+              </svg>
+              <span class="marktext">{{ slide.listText[1] | translate }}</span>
+            </li>
+            <li class="list-item">
+              <svg class="icon icon-marks">
+                <use xlink:href="#icon-marks"></use>
+              </svg>
+              <span class="marktext">{{ slide.listText[2] | translate }}</span>
+            </li>
+            <li class="list-item">
+              <svg class="icon icon-marks">
+                <use xlink:href="#icon-marks"></use>
+              </svg>
+              <span class="marktext">{{ slide.listText[3] | translate }}</span>
+            </li>
+            <li class="list-item">
+              <svg class="icon icon-marks">
+                <use xlink:href="#icon-marks"></use>
+              </svg>
+              <span class="marktext">{{ slide.listText[4] | translate }}</span>
+            </li>
+          </ul>
+          <div class="buttons">
+            <button class="button button-red" type="button">
+              <span>{{ "main.abonements.button" | translate }}</span>
+            </button>
+          </div>
+        </div>
+      </ng-template>
+    </owl-carousel-o>
+  </div>
+</section>

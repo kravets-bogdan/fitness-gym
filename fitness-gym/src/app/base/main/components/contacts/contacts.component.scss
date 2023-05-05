@@ -1,0 +1,79 @@
+// * Base
+@import "../../../../../styles/variables.scss";
+@import "../../../../../styles/mixins.scss";
+
+section {
+  position: relative;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  height: 630px;
+}
+
+.map {
+  margin-bottom: 30px;
+  position: absolute;
+  display: flex;
+  height: 630px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.contacts-adress {
+  border: none;
+  width: 100%;
+}
+
+.card {
+  padding: 30px 20px 30px 44px;
+  background-color: $c-white;
+  border-radius: 5px;
+  max-width: 370px;
+  z-index: 5;
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 20px;
+  line-height: 41px;
+  color: $c-black;
+}
+
+.square {
+  background-color: $c-light-red;
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.text {
+  font-size: em(16);
+  line-height: 27px;
+  font-weight: 400;
+}
+
+.item {
+  margin-bottom: 22px;
+  display: flex;
+}
+
+.list {
+  margin-bottom: 65px;
+}
+
+.social {
+  display: flex;
+}
+
+.element {
+  color: $c-light-red;
+  margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

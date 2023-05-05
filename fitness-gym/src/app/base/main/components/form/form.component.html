@@ -1,0 +1,57 @@
+<section>
+  <div class="wrapper">
+    <h2>{{ "main.request-call.h2" | translate }}</h2>
+    <p class="subtext">{{ "main.request-call.p" | translate }}</p>
+    <form class="form" [formGroup]="form">
+      <div class="left">
+        <!--  * Name -->
+        <label>
+          <p class="title">{{ "main.request-call.input" | translate }}</p>
+          <input
+            type="text"
+            formControlName="name"
+            [class.valid]="isControlValid('name')"
+            [class.invalid]="isControlInvalid('name')"
+          />
+          <div class="error">
+            <ng-container *ngIf="isControlInvalid('name')">
+              <ng-container
+                *ngIf="form.controls['name']?.hasError('required')"
+              ></ng-container>
+              {{ "main.request-call.error" | translate }}</ng-container
+            >
+          </div>
+        </label>
+        <!--  * Phone  -->
+        <label>
+          <p class="title">{{ "main.request-call.input1" | translate }}</p>
+          <input
+            type="tel"
+            formControlName="phone"
+            [class.valid]="isControlValid('phone')"
+            [class.invalid]="isControlInvalid('phone')"
+          />
+          <div class="error">
+            <ng-container *ngIf="isControlInvalid('phone')">
+              <ng-container
+                *ngIf="form.controls['phone']?.hasError('required')"
+              >
+                {{ "main.request-call.error" | translate }}</ng-container
+              >
+            </ng-container>
+          </div>
+        </label>
+        <p class="text">
+          {{ "main.request-call.text" | translate }}
+        </p>
+      </div>
+      <div class="right">
+        <p class="title">{{ "main.request-call.textarea" | translate }}</p>
+        <textarea class="textarea" formControlName="notes"></textarea>
+        <button (click)="submit()" class="button button-white">
+          <span>{{ "main.request-call.button" | translate }}</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</section>

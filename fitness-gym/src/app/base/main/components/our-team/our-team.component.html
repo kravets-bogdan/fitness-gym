@@ -1,0 +1,19 @@
+<section>
+  <div class="wrapper">
+    <h2>{{ "main.team.h2" | translate }}</h2>
+    <div class="block">
+      <div class="content" *ngFor="let item of list">
+        <img
+          [title]="item.title | translate"
+          [alt]="item.alt | translate"
+          [src]="item.src"
+          loading="lazy"
+        />
+        <p class="boldtext">{{ item.boldtext | translate }}</p>
+        <div class="line"></div>
+        <p class="subtext">{{ item.subtext | translate }}</p>
+        <p class="text">{{ item.text | translate }}</p>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,85 @@
+// * Base
+@import "../../../../../styles/variables.scss";
+@import "../../../../../styles/mixins.scss";
+
+section {
+  background-image: url("../../../../../assets/images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  align-items: center;
+  position: relative;
+  margin-top: 100px;
+  overflow: hidden;
+  display: flex;
+  height: 780px;
+}
+
+.wrapper {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+
+.content {
+  flex-direction: column;
+  align-items: center;
+  max-width: 640px;
+  color: $c-white;
+  display: flex;
+  width: 100%;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: $ff-russo;
+  margin-bottom: 50px;
+  line-height: 128px;
+  font-size: em(74);
+  font-weight: 400;
+}
+
+.text {
+  margin-bottom: 45px;
+  text-align: center;
+  font-size: em(24);
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.button-red {
+  margin-right: 20px;
+}
+
+.button {
+  min-width: 240px;
+}
+
+.wave {
+  left: calc(50% - 960px);
+  position: absolute;
+  max-width: 1920px;
+  overflow: hidden;
+  bottom: 0;
+}
+
+.social {
+  flex-direction: column;
+  position: absolute;
+  display: flex;
+  left: 0;
+}
+
+.item {
+  margin-bottom: 80px;
+  color: $c-white;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,55 @@
+@import "../../../../styles/mixins.scss";
+@import "../../../../styles/variables";
+
+.modalwindow {
+  background-color: rgba($c-black, 0.6);
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+section {
+  position: fixed;
+  z-index: 990;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.list {
+  background-color: $c-silver;
+  justify-content: center;
+  left: calc(50% - 225px);
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50px;
+  position: absolute;
+  max-width: 450px;
+  display: flex;
+  height: 200px;
+  z-index: 990;
+  width: 100%;
+  top: 150px;
+}
+
+.link {
+  color: $c-white;
+  cursor: pointer;
+}
+
+.text {
+  border-bottom: 3px solid $c-light-red;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-size: em(36);
+  color: $c-white;
+}
+
+.svg {
+  position: absolute;
+  cursor: pointer;
+  right: 40px;
+  top: 40px;
+}

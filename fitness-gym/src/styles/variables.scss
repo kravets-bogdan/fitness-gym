@@ -1,0 +1,23 @@
+// Color
+$c-light-grey: #a3a3a3;
+$c-light-red: #ea0b16;
+$c-dark-red: #410205;
+$c-silver: #c9c9c9;
+$c-white: #ffffff;
+$c-black: #000000;
+$c-grey: #303030;
+$c-red: #7a0006;
+$c-gradient: linear-gradient(180deg, rgba(180, 180, 180, 0) 0%, #333333 100%);
+
+// Font size
+$fs-base: 24;
+
+// Font familly
+$ff-base: "Montserrat", sans-serif;
+$ff-russo: "Russo One", sans-serif;
+
+// * Bezier
+$b-normal: cubic-bezier(0.4, 0, 0.2, 1);
+
+// * Transition
+$t-normal: 0.35s $b-normal;

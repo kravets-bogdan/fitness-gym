@@ -1,0 +1,76 @@
+// * Base
+@import "../../../../styles/mixins.scss";
+@import "../../../../styles/variables";
+
+header {
+  background-color: $c-black;
+  position: fixed;
+  display: flex;
+  height: 100px;
+  z-index: 10;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+app-logo {
+  margin-right: 20px;
+}
+
+.wrapper {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.content {
+  display: flex;
+}
+
+.block {
+  align-items: center;
+  margin-right: 35px;
+  display: flex;
+}
+
+.language {
+  border: none;
+  border-bottom: 1px solid $c-white;
+  background-color: transparent;
+  padding-bottom: 15px;
+  align-items: center;
+  height: fit-content;
+  cursor: pointer;
+  color: $c-white;
+  display: flex;
+}
+
+.icon-language {
+  font-weight: em(23);
+  margin-right: 10px;
+  stroke: $c-white;
+  color: $c-black;
+}
+
+.list {
+  align-items: center;
+  margin-right: 20px;
+  display: flex;
+}
+
+.item {
+  margin-right: 40px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.link {
+  font-family: $ff-russo;
+  line-height: 34px;
+  font-size: em(20);
+  font-weight: 400;
+  color: $c-white;
+  cursor: pointer;
+}

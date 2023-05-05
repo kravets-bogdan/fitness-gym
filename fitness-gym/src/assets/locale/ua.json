@@ -1,0 +1,140 @@
+{
+  "header": {
+    "navigation": {
+      "about-us": "Про нас",
+      "service": "Послуги",
+      "coaches": "Тренери",
+      "contacts": "Контакти",
+      "prices": "Ціни"
+    },
+
+    "button": "Купити абонемент"
+  },
+
+  "main": {
+    "banner": {
+      "h": "FITNESS GYM",
+      "p": "Сучасна зала з найновішим обладнанням та крутими тренерами",
+      "button": "Почни зараз",
+      "button1": "Деталі"
+    },
+
+    "about": {
+      "h2": "Про нас",
+      "p": "Lorem ipsum dolor sit amet consectetur. Amet faucibus vitae etiam massa dictumst quisque. Pellentesque a eu mattis neque. Duis vehicula pharetra ac pellentesque interdum in integer. Scelerisque cursus bibendum commodo elementum faucibus et. Nec tempor imperdiet lacus pellentesque viverra purus. Magna commodo et consectetur pharetra morbi iaculis0",
+      "button": "Детальніше..."
+    },
+
+    "service": {
+      "gym": "ТРЕНАЖЕРНИЙ ЗАЛ",
+      "cardio": "КАРДІО ЗАЛ",
+      "fitness": "ФІТНЕС ЗАЛ",
+      "group": "ГРУПОВІ ТРЕНУВАННЯ",
+      "pilates": "ПІЛАТЕС",
+      "p": "Lorem ipsum dolor sit amet, consetetur ",
+      "button": "Детальніше..."
+    },
+
+    "team": {
+      "h2": "НАША TEAM",
+      "title": "Алекс Вайт",
+      "title1": "Наталія Мельник",
+      "title2": "Катерина Мельник",
+      "level": "Тренер 1 рівня",
+      "p": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+    },
+
+    "abonements": {
+      "h2": "АБОНЕМЕНТИ",
+      "p": "Разове тренування - 100 грн",
+      "p1": "Студентам, багатодітним сім’ям та військовим - Знижка 10%",
+      "card": {
+        "c": "₴",
+        "price": "800",
+        "priceText": "/в місяць",
+        "textBold": "Безліміт - Преміум",
+        "subText": "Абонемент працює з 07:00- 21:00",
+        "listText": {
+          "1": "1 міс. - 800грн",
+          "2": "3 міс. - 2250грн",
+          "3": "6 міс. - 3500грн",
+          "4": "12 міс. - 5300грн"
+        }
+      },
+      "card2": {
+        "c": "₴",
+        "price": "900",
+        "priceText": "/в місяць",
+        "textBold": "Безліміт - Преміум",
+        "subText": "Абонемент працює з 07:00- 21:00",
+        "listText": {
+          "1": "1 міс. - 2000грн",
+          "2": "3 міс. - 27050грн",
+          "3": "6 міс. - 3900грн",
+          "4": "12 міс. - 5800грн"
+        }
+      },
+      "card3": {
+        "c": "₴",
+        "price": "700",
+        "priceText": "/в місяць",
+        "textBold": "Безліміт - Преміум",
+        "subText": "Абонемент працює з 07:00- 21:00",
+        "listText": {
+          "1": "1 міс. - 1800грн",
+          "2": "3 міс. - 2000грн",
+          "3": "6 міс. - 3400грн",
+          "4": "12 міс. - 5000грн"
+        }
+      },
+      "card4": {
+        "c": "₴",
+        "price": "1800",
+        "priceText": "/в місяць",
+        "textBold": "Безліміт - Преміум",
+        "subText": "Абонемент працює з 07:00- 21:00",
+        "listText": {
+          "1": "1 міс. - 2800грн",
+          "2": "3 міс. - 4250грн",
+          "3": "6 міс. - 7500грн",
+          "4": "12 міс. - 9300грн"
+        }
+      },
+      "button": "Купити абонемент"
+    },
+
+    "request-call": {
+      "h2": "ЗАМОВИТИ ЗВОРОТНІЙ ЗВ’ЯЗОК",
+      "p": "Для уточнення будь-якої інформації зв’яжіться з нами",
+      "input": "ЯК ДО ВАС ЗВЕРТАТИСЯ?",
+      "input1": "НОМЕР ТЕЛЕФОНУ",
+      "textarea": "ПРИМІТКИ",
+      "text": "Ми не передаємо та не обмінюємо вашу інформацію будь-кому, з будь-якої причини.  А ще не будемо розсилати спам.",
+      "button": "Надіслати",
+      "error": "Це поле є обов'язковим для заповнення"
+    },
+
+    "contacts": {
+      "h2": "КОНТАКТИ",
+      "li": "Місто Вінниця, вул Соборна 10А",
+      "li1": "+380 95 555 5555",
+      "li2": "info@gmail.com"
+    },
+
+    "404": {
+      "p": "Вибачте, ця сторінка не працює",
+      "span": "Тому ми не можем поділитись з вами гарними речами",
+      "button": "Головна"
+    },
+
+    "footer": {
+      "text": "Lorem ipsum dolor sit amet consectetur. Amet faucibus vitae etiam massa dictumst quisque. Pellentesque a eu mattis neque. Duis vehicula pharetra ac pellentesque interdum in integer.",
+      "title": "КОНТАКТИ",
+      "text1": "Call-centre: 1 (323) 938-5798 Fax: 1 (888) 637-7262 Email: info@styleixthemes.com",
+      "text2": "Місто Вінниця, вул Соборна 10А Понеділок –Неділя: 9:00 – 21:00",
+      "label": "ЗАЛИШ СВІЙ НОМЕР ДЛЯ ЗВ’ЯЗКУ",
+      "button": "Надіслати",
+      "error": "Це поле є обов'язковим для заповнення"
+    }
+  }
+}

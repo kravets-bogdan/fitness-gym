@@ -1,0 +1,34 @@
+<section>
+  <div class="wrapper">
+    <div class="left">
+      <h2>{{ "main.about.h2" | translate }}</h2>
+      <p class="text">
+        {{ "main.about.p" | translate }}
+      </p>
+      <button
+        (click)="showText = !showText"
+        class="button button-simple"
+        type="button"
+      >
+        {{ "main.about.button" | translate }}
+      </button>
+      <p *ngIf="showText" class="text">
+        {{ "main.about.p" | translate }}
+      </p>
+    </div>
+    <div class="right">
+      <owl-carousel-o [options]="customOptions">
+        <ng-container *ngFor="let slide of slidesStore">
+          <ng-template carouselSlide [id]="'slide.id'">
+            <img
+              loading="lazy"
+              [src]="slide.src"
+              [alt]="slide.alt"
+              [title]="slide.title"
+            />
+          </ng-template>
+        </ng-container>
+      </owl-carousel-o>
+    </div>
+  </div>
+</section>

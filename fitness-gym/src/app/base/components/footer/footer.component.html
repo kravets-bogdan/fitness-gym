@@ -1,0 +1,59 @@
+<section>
+  <div class="wrapper">
+    <div class="info">
+      <p class="text">
+        {{ "main.footer.text" | translate }}
+      </p>
+      <div class="social">
+        <a class="item" href="https://www.instagram.com/" target="_blank">
+          <svg class="icon icon-instagram">
+            <use xlink:href="#icon-instagram"></use>
+          </svg> </a
+        ><a href="https://www.facebook.com/" target="_blank" class="item">
+          <svg class="icon icon-facebook">
+            <use xlink:href="#icon-facebook"></use>
+          </svg> </a
+        ><a class="item" href="https://twitter.com/" target="_blank">
+          <svg class="icon icon-twitter">
+            <use xlink:href="#icon-twitter"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="contacts">
+      <h2 class="title">{{ "main.footer.title" | translate }}</h2>
+      <p class="text">
+        {{ "main.footer.text1" | translate }}
+      </p>
+      <p class="text">
+        {{ "main.footer.text2" | translate }}
+      </p>
+    </div>
+    <form class="form" [formGroup]="form">
+      <p class="title">{{ "main.footer.label" | translate }}</p>
+      <div class="block">
+        <!--  * Phone  -->
+        <label>
+          <input
+            type="tel"
+            formControlName="phone"
+            [class.valid]="isControlValid('phone')"
+            [class.invalid]="isControlInvalid('phone')"
+          />
+          <div class="error">
+            <ng-container *ngIf="isControlInvalid('phone')">
+              <ng-container
+                *ngIf="form.controls['phone']?.hasError('required')"
+              >
+                {{ "main.footer.error" | translate }}</ng-container
+              >
+            </ng-container>
+          </div>
+        </label>
+        <button (click)="submit()" class="button button-white">
+          <span> {{ "main.footer.button" | translate }}</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</section>

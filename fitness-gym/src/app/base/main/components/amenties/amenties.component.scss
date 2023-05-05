@@ -1,0 +1,86 @@
+// * Base
+@import "../../../../../styles/node_modules.scss";
+@import "../../../../../styles/variables.scss";
+@import "../../../../../styles/mixins.scss";
+
+section {
+  background-color: $c-black;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  font-weight: 400;
+  color: $c-black;
+}
+
+.buttons {
+  justify-content: center;
+  display: flex;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.text {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  text-align: center;
+  line-height: 34px;
+  font-size: em(20);
+  color: $c-white;
+  display: flex;
+}
+
+.item {
+  padding: 35px 55px 45px 30px;
+  background-color: $c-white;
+  border-radius: 20px;
+  max-width: 440px;
+  width: 100%;
+}
+
+.price {
+  font-family: $ff-russo;
+  margin-bottom: 35px;
+  font-size: em(20);
+  line-height: 34px;
+}
+
+.textbold {
+  margin-bottom: 25px;
+}
+
+.subtext {
+  margin-bottom: 50px;
+  line-height: 31px;
+  font-size: em(18);
+}
+
+.icon-marks {
+  color: $c-light-red;
+  margin-right: 16px;
+}
+
+.marktext {
+  line-height: 34px;
+  font-size: em(20);
+}
+
+.list {
+  margin-bottom: 34px;
+}
+
+.list-item {
+  align-items: center;
+  margin-bottom: 30px;
+  display: flex;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.priceamount {
+  font-family: $ff-russo;
+  font-size: em(50);
+}
